@@ -1,0 +1,12 @@
+@import './exports/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@400;600;700&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+// Globals
+@import './exports/variables';
+@import './exports/mixins';
+@import './exports/globals';
+
+
+// Layouts
+@import './layout/loginPage';
+@import './layout/campo';
