@@ -19,11 +19,14 @@ class LoginController {
 	}
 
 	// Regitser methods
-	public static function register() {
-		echo "Registrate wey";
-
+	public static function register(Router $router) {
 		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		}
+
+		// Render view
+		$router->render('auth/register', [
+			'title' => 'Register'
+		]);
 	}
 
 	// Forget password form

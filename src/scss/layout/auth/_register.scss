@@ -1,0 +1,10 @@
+.logo__register{
+	margin: 2rem auto 0 auto;
+    height: 8rem;
+}
+
+@include tablet{
+	.logo__register{
+		height: 10rem;
+	}
+}

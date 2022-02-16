@@ -9,6 +9,8 @@
 
 
 // Layouts
-@import './layout/loginPage';
-@import './layout/campo';
+	// Layouts for the auth 
+@import './layout/auth/loginPage';
+@import './layout/auth/register';
+@import './layout/auth/campo';
 @import './layout/footer';
