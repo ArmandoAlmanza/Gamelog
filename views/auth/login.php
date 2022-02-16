@@ -30,7 +30,24 @@
 				<button id="login__btn" class="btn btn">Log-in</button>
 			</div>
 
+			<footer class="site__footer">
+				<p>Pagina diseñada y hecha por ArmandoAlmaza</p>
 
+				<div class="social">
+					<a target="_blank" href="https://www.facebook.com/ArmyAlmanza/">
+						<i class="fa-brands fa-facebook icon__social"></i>
+					</a>
+					<a target="_blank" href="https://www.instagram.com/jamon_sad/">
+						<i class="fa-brands fa-instagram icon__social"></i>
+					</a>
+					<a target="_blank" href="https://twitter.com/JamonSad03">
+						<i class="fa-brands fa-twitter icon__social"></i>
+					</a>
+					<a target="_blank" href="https://github.com/ArmandoAlmanza">
+						<i class="fa-brands fa-github icon__social"></i>
+					</a>
+				</div>
+			</footer>
 		</div>
 
 	</div>
