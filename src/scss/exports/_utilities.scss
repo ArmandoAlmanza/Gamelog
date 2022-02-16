@@ -1,0 +1,14 @@
+.btn {
+    padding: 1rem 5.6rem;
+    background-color: $purple;
+    color: $blac;
+    font-size: 2rem;
+    border-radius: 50px;
+    border: none;
+    display: block;
+    margin: 4rem auto;
+    &:hover {
+        cursor: pointer;
+        background-color: $purple-alt;
+    }
+}

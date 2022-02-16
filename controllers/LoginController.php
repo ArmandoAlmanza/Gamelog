@@ -10,7 +10,7 @@ class LoginController {
 		}
 		// Render view
 		$router->render('auth/login', [
-
+			'title' => 'Login'
 		]);
 	}
 

@@ -1,14 +1,14 @@
 .login__container {
     background-color: $blac;
     color: $white;
-	display: flex;
-	flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .login {
     @include grid(1, calc($separation / 6));
     align-items: center;
 }
-.hero__box {
+.logo__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,15 +18,36 @@
     background-image: url("../img/hero.jpg");
     background-size: cover;
     background-position: center center;
-    min-height: 100px;
+    min-height: 150px;
+    margin-top: 2rem;
 }
 .logo {
     margin: 2rem auto 0 auto;
     height: 15rem;
-	&:hover{
-		cursor: pointer;
-	}
 }
+
+.links__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    gap: 2rem;
+    font-size: 1.7rem;
+    text-align: left;
+    a {
+        margin: 0 auto;
+        color: $blue;
+        transition: all .2s ease-in-out;
+        &:hover {
+            color: $blue-alt;
+        }
+    }
+}
+
+.btn__container{
+    display: inline-block;
+    width: 100%;
+}
+
 @include tablet {
     .login__container {
         @include grid(2, $separation);
@@ -34,7 +55,16 @@
     }
 
     .logo {
-		margin: 0 auto;
+        margin: 0 auto;
         height: 25rem;
+    }
+    .hero {
+        margin: 0;
+    }
+
+    .links__container {
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 2rem;
     }
 }
