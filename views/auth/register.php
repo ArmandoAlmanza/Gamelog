@@ -3,7 +3,7 @@
 	<div class="login">
 		<div class="logo__container">
 			<img src="./favicon.svg" alt="page logo" class="logo__register">
-			<h1>Login</h1>
+			<h1>Register</h1>
 		</div>
 
 		<div class="form__container">
