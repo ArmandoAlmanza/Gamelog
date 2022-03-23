@@ -11,3 +11,5 @@ gulpfile.js
 package-lock.json
 
 .env
+
+db.sql
