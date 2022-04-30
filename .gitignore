@@ -1,14 +1,10 @@
 node_modules
 
-design
 
-/.vscode
 
 vendor
 
 
 package-lock.json
 
-.env
 
-db.sql
