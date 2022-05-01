@@ -10,7 +10,8 @@ CREATE TABLE users(
 	nickName VARCHAR(30) NOT NULL,
 	firstName VARCHAR(25) NOT NULL,
 	lastName VARCHAR(25) NOT NULL,
-	img VARCHAR(200)
+	img VARCHAR(200),
+	email VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE favourites(
