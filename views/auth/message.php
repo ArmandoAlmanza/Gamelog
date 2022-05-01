@@ -3,31 +3,18 @@
 	<div class="login">
 		<div class="logo__container">
 			<img src="./favicon.svg" alt="page logo" class="logo">
-			<h1>Login</h1>
+			<h1>Enter your new password</h1>
 		</div>
 
-		<div class="form__container">
-			<form method="POST" action="/">
-
-				<div class="campo">
-					<label for="email">Correo Electronico: </label>
-					<input type="email" name="email" id="email_login" placeholder="Enter your email...">
-				</div>
-
-				<div class="campo">
-					<label for="password">Password: </label>
-					<input type="password" name="password" id="password_login" placeholder="Enter your password...">
-				</div>
-			</form>
+		
+			<h1 class="tc">Your account was created succesfully</h1>
 
 			<div class="links__container">
-				<a href="/forget-password" class="link__auth">I forget my password</a>
-				<a href="/register" class="link__auth">I didn't have an account</a>
+				<a href="/" class="link__auth">I already have an account</a>
 			</div>
 
-
 			<div class="btn__container">
-				<button id="login__btn" class="btn btn">Log-in</button>
+				<button id="login__btn" class="btn btn">Save Password</button>
 			</div>
 
 			<footer class="site__footer">
@@ -48,7 +35,7 @@
 					</a>
 				</div>
 			</footer>
-		</div>
+		
 
 	</div>
 

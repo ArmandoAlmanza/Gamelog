@@ -15,7 +15,7 @@ class LoginController {
 	}
 
 	public static function logout() {
-		echo "hast ala pocima wey";
+		print "hasta la pocima wey";
 	}
 
 	// Regitser methods
@@ -30,22 +30,30 @@ class LoginController {
 	}
 
 	// Forget password form
-	public static function forgetPassword() {
-		echo "se me olvido wey";
+	public static function forgetPassword(Router $router) {
 
 		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		}
+
+		$router->render('auth/forget', [
+			'title' => 'Forget Password'
+		]);
 	}
 	// Restore password form
-	public static function restorePassword() {
-		echo "escribela de nuez wey";
+	public static function restorePassword(Router $router) {
 
 		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		}
+
+		$router->render('auth/restore', [
+			'title' => 'Restore Password'
+		]);
 	}
 
-	public static function message() {
-		echo "he we ya esta";
+	public static function message(Router $router) {
+		$router->render('auth/message', [
+			'title' => 'Account Created'
+		]);
 	}
 
 	public static function confirm() {

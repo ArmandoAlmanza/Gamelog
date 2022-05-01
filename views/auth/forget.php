@@ -2,38 +2,16 @@
 	<div class="hero"></div>
 	<div class="login">
 		<div class="logo__container">
-			<img src="./favicon.svg" alt="page logo" class="logo__register">
-			<h1>Register</h1>
+			<img src="./favicon.svg" alt="page logo" class="logo">
+			<h1>Forget the password</h1>
 		</div>
 
 		<div class="form__container">
-			<form method="POST" action="/register">
-				<div class="campo">
-					<label for="First__Name">First Name: </label>
-					<input type="text" name="First_Name" id="first_name" placeholder="Enter your first name pls...">
-				</div>
-
-				<div class="campo">
-					<label for="Last_Name">Last name: </label>
-					<input type="text" name="Last_Name" id="last_name" placeholder="Enter your last name pls...">
-				</div>
-
+			<form method="POST" action="/forget">
 				<div class="campo">
 					<label for="email">Correo Electronico: </label>
 					<input type="email" name="email" id="email_login" placeholder="Enter your email pls..." require>
 				</div>
-
-				<div class="campo">
-					<label for="password">Password: </label>
-					<input type="password" name="password" id="password_login" placeholder="Enter your email pls...">
-				</div>
-
-				<div class="campo">
-					<label for="password">Password repeat: </label>
-					<input type="password" name="password" id="password_login" placeholder="Enter your email pls...">
-				</div>
-
-
 			</form>
 
 			<div class="links__container">
@@ -41,7 +19,7 @@
 			</div>
 
 			<div class="btn__container">
-				<button id="login__btn" class="btn btn">Register</button>
+				<button id="login__btn" class="btn btn">Send Instructions</button>
 			</div>
 
 			<footer class="site__footer">

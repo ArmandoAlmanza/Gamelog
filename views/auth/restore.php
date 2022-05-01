@@ -2,26 +2,12 @@
 	<div class="hero"></div>
 	<div class="login">
 		<div class="logo__container">
-			<img src="./favicon.svg" alt="page logo" class="logo__register">
-			<h1>Register</h1>
+			<img src="./favicon.svg" alt="page logo" class="logo">
+			<h1>Enter your new password</h1>
 		</div>
 
 		<div class="form__container">
-			<form method="POST" action="/register">
-				<div class="campo">
-					<label for="First__Name">First Name: </label>
-					<input type="text" name="First_Name" id="first_name" placeholder="Enter your first name pls...">
-				</div>
-
-				<div class="campo">
-					<label for="Last_Name">Last name: </label>
-					<input type="text" name="Last_Name" id="last_name" placeholder="Enter your last name pls...">
-				</div>
-
-				<div class="campo">
-					<label for="email">Correo Electronico: </label>
-					<input type="email" name="email" id="email_login" placeholder="Enter your email pls..." require>
-				</div>
+			<form method="POST" action="/restore">
 
 				<div class="campo">
 					<label for="password">Password: </label>
@@ -41,7 +27,7 @@
 			</div>
 
 			<div class="btn__container">
-				<button id="login__btn" class="btn btn">Register</button>
+				<button id="login__btn" class="btn btn">Save Password</button>
 			</div>
 
 			<footer class="site__footer">
